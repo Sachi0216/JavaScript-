@@ -15,14 +15,19 @@ function multiplication_Function() {
     document.getElementById("multiplication").innerHTML="5 * 2" + multiplication;
 }
 
-//division
-function division_Function() {
-    var division = 48 / 6;
-    document.getElementById("division").innerHTML ="48 / 6 =" + division;
-}
 
 //modulus operator
 function modulus_Operator() {
     var simple_Math = 25 % 6;
     document.getElementById("modulus").innerHTML ="When you divide 25 by 6 you have a remainder of: " + simple_Math;
 }
+
+//increment
+var X = 5.25;
+x++;
+document.write(x);
+
+//decrement
+var x = 5.25;
+x--;
+document.write(x); 
