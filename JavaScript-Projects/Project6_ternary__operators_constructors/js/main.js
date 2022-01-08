@@ -25,7 +25,7 @@ var Jack = new Vehicle("Tesla", "Model S", "2021", "Matte Black");
 var Emily = new Vehicle("Jeep", "Wrangler","2020", "White and Black");
 var Erik = new Vehicle("Ford", "Pinto","1971","Mustard");
 function my_Function() {
-    document.getElementById("Keywords_and_Contructors").innerHTML= 
+    document.getElementById("Keywords_and_Constructors").innerHTML= 
     "Erik drives a "+ Erik.Vehicle_Color + "_colored" + Erik.Vehicle_Model + 
     "manufactured in" + Erik.Vehicle_Year;
 }
@@ -40,3 +40,4 @@ function count_Function() {
         Plus_one();
         return Starting_point;
     }
+}
