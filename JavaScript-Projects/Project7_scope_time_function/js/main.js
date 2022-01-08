@@ -7,7 +7,7 @@ function get_Date() {
 }
 //Else Statements
 function Age_Function(){
-    Age = docoument.getElementById("Age").value;
+    Age = document.getElementById("Age").value;
     if (Age >= 18) {
         Vote = "You are old enough to vote!";
     }
