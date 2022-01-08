@@ -5,7 +5,7 @@ function count_To_Ten() {
         Digit += "<br>" + X;
         X++;
     }
-    document.getElementById("Counting_to_Ten").innerHTML = Digit;
+    document.getElementById("counting_To_Ten").innerHTML = Digit;
 }
 
 var Instruments =["Guitar", "Drums", "Piano", "Bass", "Violin", "Trumpet", "Flute"];
