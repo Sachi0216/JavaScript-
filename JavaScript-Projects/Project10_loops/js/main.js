@@ -1,7 +1,7 @@
 function count_To_Ten() {
     var Digit ="";
     var X = 1;
-    while (x < 11) {
+    while (X < 11) {
         Digit += "<br>" + X;
         X++;
     }
