@@ -1,7 +1,7 @@
 //creates an object to keep track of values
 const Calculator = {
     //this is displays 0 on the screen
-    Display_Value: "0",
+    Display_Value: '0',
 
     First_Operand: null,
 
@@ -19,14 +19,14 @@ function Input_Digit(digit) {
         Calculator.Display_Value = digit;
         Calculator.Wait_Second_Operand = false;
     } else {
-    Calculator.Display_Value = Display_Value === "0" ? digit : Display_Value + digit;
+    Calculator.Display_Value = Display_Value === '0' ? digit : Display_Value + digit;
     }
 }
 
 //this section handles decimal points
 function Input_Decimal(dot) {
     if (Calculator.Wait_Second_Operand === true) return;
-    if (!Calculator.Display_Value.includes(dot)) {
+    if (!Calculator.Display_Value.Includes(dot)) {
         Calculator.Display_Value += dot;
     }
 }
@@ -83,7 +83,7 @@ function Update_Display() {
         }
         if (target.classList.contains('operator')) {
             Handle_Operator(target.value);
-            Update_Display() ;
+            Update_Display();
             return;
         }
         if (target.classList.contains('decimal')) {
